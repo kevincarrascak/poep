@@ -1,0 +1,89 @@
+body {
+    background: beige(171, 240, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+h1 {
+    border: 0.1em solid black;
+    background: beige;
+    padding: 2vh 1vh;
+    margin: 0em;
+}
+
+.alpha {
+    background: white;
+    padding: 0.1em;
+    border-radius: 0.2em;
+    transition: background 250ms ease;
+}
+
+.alpha:hover {
+    background: red;
+}
+
+.alpha:focus {
+    background: blue;
+}
+
+.beta {
+    background: white;
+    padding: 0.1em;
+    border-radius: 0.2em;
+    transition: background 250ms ease;
+}
+
+.beta:hover {
+    background: red;
+}
+
+.beta:focus {
+    background: blue;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+header, footer {
+    background: beige;
+    padding: 1em;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    padding: 2em;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-right: 2em;
+}
